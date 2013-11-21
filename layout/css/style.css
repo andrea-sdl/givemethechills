@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6{
 h1{
 	font-family: 'Kreon',Arial,sans-serif;
 	font-weight:normal;
+
 }
 h1.big{
 	font-size:72px;
@@ -51,9 +52,15 @@ li{
 .heading .page-header h1{
 	font-size:72px;
 	line-height:80px;
-	color:#fff;
 	font-weight:normal;
 	text-align: center;
+	color: #333;
+text-shadow: 1px 1px 2px #fff;
+}
+.heading .page-header h1 i{
+color: #646464;
+font-style: normal;
+text-shadow: 0px 1px 1px #fff;
 }
 .heading .page-header h1 small{
 	font-size:72px;
@@ -78,7 +85,7 @@ li{
 .heading{
 	position:relative;
 	height:auto;
-	background:url(../../images/header_bg.jpg) no-repeat fixed center top #2c4d7c;
+	background:url(../../images/IMG_3363blur.jpg) no-repeat fixed center top #ECCCAD;
 }
 .heading.page-item-class{
 	padding:0;
