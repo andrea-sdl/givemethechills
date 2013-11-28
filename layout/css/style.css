@@ -57,6 +57,10 @@ li{
 	color: #333;
 text-shadow: 1px 1px 2px #fff;
 }
+.heading .page-header h1 em{
+	font-size: 50%;
+line-height: 1.2em;
+	}
 .heading .page-header h1 i{
 color: #646464;
 font-style: normal;
