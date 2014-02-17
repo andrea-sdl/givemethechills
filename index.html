@@ -1,424 +1,494 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SHIELD - Free Bootstrap 3 Theme">
+    <meta name="author" content="Carlos Alvarez - Alvarez.is - blacktie.co">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-<head>
-<title>Discover how much you work, and if it's worth the trouble - Give Me The Chills</title>
+    <title>Discover how much you work, and if it's worth the trouble - Give Me The Chills</title>
 
-<meta name="keywords" content="give me the chills, time tracking, time tracker, time, happiness, happiness time tracking">
-<meta name="description" content="The Time Tracker that won't steal your time and will help your life - Give Me The Chills">
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-<link href='http://fonts.googleapis.com/css?family=Kreon:400,300|Rokkitt|Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link href="assets/css/animate-custom.css" rel="stylesheet">
 
-<link href="layout/css/bootstrap.min.css" rel="stylesheet">
-<link href="layout/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="layout/css/font-awesome.min.css">
 
-<script src="layout/js/jquery.js" type="text/javascript"></script>
-<script src="layout/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="layout/plugins/scrollto/jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script>
-<!-- MouseWheel -->
-<script src="layout/plugins/mousewheel/jquery.mousewheel.min.js" type="text/javascript"></script>
-<!-- MouseWheel END -->
-<!-- FlexSlider -->
-<script src="layout/plugins/flexslider/jquery.flexslider-min.js" type="text/javascript"></script>
-<link rel="stylesheet" href="layout/plugins/flexslider/flexslider.css" />
-<!-- FlexSlider END -->
-<!-- PrettyPhoto -->
-<script src="layout/plugins/prettyphoto/jquery.prettyPhoto.js" type="text/javascript"></script>
-<link rel="stylesheet" href="layout/plugins/prettyphoto/css/prettyPhoto.css" />
-<!-- PrettyPhoto END -->
-<!-- jQuery Form Plugin start -->
-<script type="text/javascript" src="layout/plugins/ajaxform/jquery.form.js"></script>
-<!-- jQuery Form Plugin end -->
-<script src="layout/js/functions.js" type="text/javascript"></script>
-<script src="layout/js/script.js" type="text/javascript"></script> 
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-<link href="layout/css/style.css" rel="stylesheet" type="text/css">
-<!--Start of Zopim Live Chat Script-->
-<script type="text/javascript">
-window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
-$.src='//v2.zopim.com/?1oXSRnpOnAiHpJdz086QSSju6qauJOcM';z.t=+new Date;$.
-type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
-</script>
-<!--End of Zopim Live Chat Script-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+  
+  
+  	<div id="navbar-main">
+      <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon icon-clock" style="font-size:30px; color:#3498db;"></span>
+          </button>
+          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-clock" style="font-size:18px; color:#3498db;"></span></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#home" class="smoothScroll">Home</a></li>
+			<li> <a href="#features" class="smoothScroll"> Features </a></li>
+			<li> <a href="#pricing" class="smoothScroll"> Pricing</a></li>
+			<li> <a href="#faq" class="smoothScroll"> FAQ</a></li>
+			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    </div>
 
-  ga('create', 'UA-339403-11', 'givemethechills.com');
-  ga('send', 'pageview');
+  
+  
+		<!-- ==== HEADERWRAP ==== -->
+	    <div id="headerwrap" id="home" name="home">
+			<header class="clearfix">
+	  		 		<h1>Track Your Time <br/>With No Timers</h1>
+	  		 		<p ><em>Discover how much you work, <br/>and if it is worth the trouble</em></p>
+	  		 		<p><a href="#features" class="header_arrow_button"></a></p>
+	  		</header>	    
+	    </div><!-- /headerwrap -->
 
-</script>
-</head>
-
-<body>
-<!-- ClickTale Top part -->
-<script type="text/javascript">
-var WRInitTime=(new Date()).getTime();
-</script>
-<!-- ClickTale end of Top part -->
-
-<!-- Header -->
-<div class="heading page-item-class" id="page0">
-	<div class="container-fluid heading_pattern">
 		
-		<div class="container">
-	<!-- Logo 1 -->
-			<div class="logo"><!-- Place top logo here --></div>
-			
-			<div class="hello_block">
-				<div class="decorative_line">Give Me The Chills</div>
-			</div>
+		<!-- ==== ABOUT ==== -->
+		<div class="container" id="features" name="features">
+			<div class="row white">
+				<h1  class="centered">The Easy Alternative to Timers and Spreadsheets</h1>
+				<hr>
 
-			<div class="page-header">
-				<h1>Track Your Time<br>With No Timers<br><em>Discover how much you work, <br>and if it is worth the trouble</em></h1>
-			</div>
-			
-			<a href="#page1" class="header_arrow_button"></a>
-
-		</div>
-		
-	</div>
-	
-</div>
-<!-- Header END -->
-
-<!-- Navigation -->
-<div class="navigation_main_wrapper">
-	<div class="navigation_main">
-		<div class="container-fluid">
-		
-			<a id="collapse_button" class="btn btn-navbar pull-right" data-toggle="collapse" data-target=".nav-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</a>
-			
-<!-- Logo on mobile fixed menu. Will be visible if window width is less than 768px. Max height 60px -->
-			<div class="mobile_menu_logo"><a href="#page0" class="scroll_to mobile_menu_logo_a"><img src="layout/img/logo3.jpg" alt=""></a></div>
-
-			<div class="container navbar_container" id="collapse_element">
-<!-- Logo on fixed menu. Max height 64px. Will be shown if window width > 768px -->
-				<div class="logo2 pull-left"><img src="layout/img/logo2.jpg" alt=""></div>
-				
-				<div class="navbar pull-right">
-					<div class="navbar-inner">
-						<ul class="nav">
-							<li class="active"><a href="#page0">Home</a></li>
-							<li><a href="#page1">About</a></li>
-							<li><a href="#page2">Features</a></li>
-							<li><a href="#page3" class="hide-me-in-drop-down-for-tablets">Pricing</a></li>
-							<li><a href="#page4" class="hide-me-in-drop-down-for-tablets">Contacts</a></li>
-							
-						<!-- This item will show only on tablets and containelements with class .hide-me-in-drop-down-for-tablets -->
-							<li class="dropdown tablet_drop_down">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b> </a>
-								<ul class="dropdown-menu"><li>&nbsp;</li></ul>
-							</li>
-						</ul>
-					</div>
-				</div>	
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Navigation END -->
-
-<!-- Page 1 (about) -->
-<div class="container-fluid page-item-class" id="page1">
-	<div class="container">
-		
-		<div class="page-header">
-			<h1>The Easy Alternative to Timers and Spreadsheets</h1>
-		</div>
-		
-		<div class="row-fluid">
-			<div class="span5 offset1 pull-right">
-				<img src="images/Responsive-Mock-up-trasp1-1024x592.png" alt="" class="about_iphone_image"/>
-			</div>
-			<div class="span6">
+			<div class="col-lg-6">
 				<p id="about_buttons_1" class="about_buttons_target">Whenever you're on the go or you're at home it should NEVER be a difficult task to say what you've worked on.</p>
 				<p ><strong>We built this to help you do what you love in life</strong> instead of setting up, writing notes just to keep track of what you did.</p>
 	
-				<a class="the_btn btn-large" href="#page3">Get Access</a>
+				<a class="btn btn-lg btn-success" href="#pricing">Get Access</a>
 			</div>
-		</div>
+				<div class="col-lg-5">
+				<img src="images/Responsive-Mock-up-trasp1-1024x592.png" alt="" class="about_iphone_image"/>
+			</div>
+				
+			</div><!-- row -->
+		</div><!-- container -->
 		
-		<div class="divider50"></div>
-		<h1>No <em>timers</em> to start, things to remember or <em>app</em> to install </h1>
-		<div class="row-fluid">
-			<div class="span3">
-				<h4 class="sub_heading"><i class="icon-tablet"></i> Access Anywhere</h4>
-				<p>A single Webapp fully responsive, from its head to its toes. <br/>
-				iPhone, Android, Mac, Pc, you name it.</p>
-			</div>
-			<div class="span3">
-				<h4 class="sub_heading"><i class="icon-user"></i> Easy as tapping</h4>
-				<p>You just need some taps and you're good to go. <br/>Have a mouse? Click it!</p>
-			</div>
-			<div class="span3">
-				<h4 class="sub_heading"><i class="icon-envelope-alt"></i> Daily reminders</h4>
-				<p>You will get your daily email to remember to track your day, it's our job to help you.</p>
-			</div>
-			<div class="span3">
-				<h4 class="sub_heading"><i class="icon-signal"></i> Stats with Happiness</h4>
-				<p>You can see how much you've worked weekly, monthly, yearly and know how much happy you were</p>
-			</div>
-		</div>
+		<!-- ==== SECTION DIVIDER1 -->
+		<section class="section-divider textdivider divider1">
+			<div class="container">
+				<h1>No timers to start, things to remember or app to install</h1>
+				<hr>				
+			</div><!-- container -->
+		</section><!-- section -->
 		
-	</div>
-</div>
-<!-- Page 1 (about) END -->
+		<div id="greywrap">
+			<div class="row">
+				<div class="col-lg-3 callout">
+					<span class="icon icon-tablet"></span>
+					<h2>Access Anywhere</h2>
+					
+					<p>A single Webapp fully responsive, from its head to its toes. <br/>
+						iPhone, Android, Mac, Pc, you name it.</p>
+				</div><!-- col-lg-4 -->
+					
+				<div class="col-lg-3 callout">
+					<span class="icon icon-point-down"></span>
+					<h2>Easy as tapping</h2>
+					<p>You just need some taps and you're good to go. <br/>Have a mouse? Click it!</p>
+				</div><!-- col-lg-4 -->	
+				
+				<div class="col-lg-3 callout">
+					<span class="icon icon-envelop"></span>
+					<h2>Daily reminders</h2>
+					<p>You will get your daily email to remember to track your day, it's our job to help you.</p>
+				</div><!-- col-lg-4 -->	
+				
+				<div class="col-lg-3 callout">
+					<span class="icon icon-bars-2"></span>
+					<h2>Stats with Happiness</h2>
+					<p>You can see how much you've worked weekly, monthly, yearly and know how much happy you were</p>
+				</div><!-- col-lg-4 -->	
+			</div><!-- row -->
+		</div><!-- greywrap -->
 
-<!-- Page 2 (features) -->
-<div class="container-fluid page-item-class" id="page2">
-	<div class="container">
-	
-		<div class="row-fluid">
-			<div class="span6 pull-right">
-				<h1 class="big">There's No Need To Remember When To Track</h1>
-			</div>
-			<div class="span5 pull-left">
-				<p><br/><iframe src="//www.youtube.com/embed/2VhPeuQEWyE" height="360" width="480" allowfullscreen="" frameborder="0"></iframe></p>
-			</div>
-			<div class="span6 pull-right">
-				<p>Did you ever forgot to save how much hours you've worked on a project, only to let days pass and not remembering anything?</p>
+		<!-- ==== SERVICES ==== -->
+		<div class="container" >
+			<br>
+			<br>
+			<div class="row white">
 
-<p>Now you can stop worrying.</p>
+				<h2 class="centered">There's No Need To Remember When To Track</h2>
+				<hr>
+				<div class="col-lg-5 col-lg-offset-1">
+					<p><iframe src="http://www.youtube.com/embed/2VhPeuQEWyE" height="360" width="480" allowfullscreen="" frameborder="0"></iframe></p>
+				</div>
+				<div class="col-lg-5 col-lg-offset-1">
+					<p>Did you ever forgot to save how much hours you've worked on a project, only to let days pass and not remembering anything?</p>
+					<p>Now you can stop worrying.</p>
+					<p>It will be our job to ask you what you did during your day.</p>
+					<a class="btn btn-lg btn-success" href="#pricing">Let's Start Tracking Time</a>
+				</div>
+			</div><!-- row -->
+			
+			<div class="row">
+				<h2 class="centered">A Simpler Way To Track Your Hours</h2>
+				<hr>
+				<div class="col-lg-5 col-lg-offset-2">
+				<p><strong>Tracking hours shouldn't take... hours</strong>, that's why our new app makes it super simple for you to insert your worked hours into the 	system.</p>
 
-<p>It will be our job to ask you what you did during your day.</p>
-				<a class="the_btn btn-large" href="#page3">Go &amp; Get It</a>
-			</div>
-		</div>		
-		<div class="divider10"></div>
-		<div class="row-fluid">
-			<div class="span7 pull-left">
-				<h1 class="big">An Easier Way To Track Your Hours</h1>
-			</div>
-			<div class="span4 pull-right">
-				<p><img src="images/features_02.jpg" alt="" /></p>
-			</div>
-			<div class="span7 pull-left on_mobile_text_block">
-				<p>Tracking hours shouldn't take... hours, that's why our new app makes it super simple for you to insert your worked hours into the system.</p>
+				<p>No more waiting, no more clicking a lot or writing.</p>
 
-<p>No more waiting, no more clicking a lot or writing.</p>
+				<p>Just click and go.</p>
+				<a class="btn btn-lg btn-success" href="#pricing">Go Simplify your Life</a>
+				</div>
+				<div class="col-lg-4">
+					<p><img src="images/features_02.jpg" alt="" /></p>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+  		
 
-<p>Just click and go.
+		<!-- ==== SECTION DIVIDER2 -->
+		<section class="section-divider textdivider divider2">
+			<div class="container">
+				<h1>We Care About Your Happiness</h1>
+				<hr>
+				<p>and you should too...</p>
+			</div><!-- container -->
+		</section><!-- section -->
 
-</p>
-				<a class="the_btn btn-large" href="#page3">Go Simplify your Life</a>
-			</div>
-		</div>		
-		<div class="divider10"></div>
-		<div class="row-fluid">
-			<div class="span6 pull-right">
-				<h1 class="big">We Care About Your Happiness </h1>
-				<h2><em>and You Should Too</em></h2>
-			</div>
-			<div class="span5 pull-left">
+		<!-- ==== TEAM MEMBERS ==== -->
+		<div class="container" id="team" name="team">
+		<br>
+			<div class="row white ">
+				<h1 class="centered">The First To Track Your Smile</h1>
+				<hr>
+				<div class="col-lg-5 col-lg-offset-1">
 				<p><img src="images/features_03.jpg" alt="" /></p>
 			</div>
-			<div class="span6 pull-right">
+			<div class="col-lg-5 ">
 				<p>Because happiness is what makes life great we included a 1 click way to say if you were happy during this working day.</p>
 
-<p>You will know exactly how much a project made you happier and if that project was worth the trouble or not so you can choose more carefully your clients next time.</p>
+				<p>You will know exactly how much a project made you happier and if that project was worth the trouble or not so you can choose more carefully your clients next time.</p>
 
-				<div class="divider20"></div>
-				<a class="the_btn btn-large" href="#page3">Start Tracking Your Day</a>
+				<a class="btn btn-lg btn-success" href="#pricing">Start Tracking Your Day</a>
 			</div>
-		</div>
-		<div class="divider10"></div>
-		<div class="row-fluid">
-			<div class="span8 pull-left">
-				<h1 class="big">An Extraordinary 100% Guarantee</h1>				<p>
+				
+				
+			</div><!-- row -->
+		</div><!-- container -->
 
-We are serious about making your life easier.</p>
-
-<p>If this product doesn't simplify your life just ask the money back and we'll refund the whole amount.</p>
-<p>Ah, did we say that you can do it up until 60 days later?</p>
-
-				<div class="divider20"></div>
-				<a class="the_btn btn-large" href="#page3">Go &amp; Get It</a>
-			</div>
-
-			<div class="span4 pull-right">
-				<h1><img src="images/guarantee1.png" alt="" /></h1>
-			</div>
-		</div>
-		
-		
-	</div>
-</div>
-<!-- Page 2 (features) END -->
-
-<!-- Page 3 (Pricing) -->
-<div class="container-fluid page-item-class" id="page3">
-	<div class="container">
-		<div class="page-header">
-			<h1 class="tac">Plans &amp; Pricing</h1>
-			<p class="lead tac">Simple plans for everyone</p>
-		</div>
-		<div class="row-fluid event_block_container">
-			<div class="span5 tac offset1">
-				<div class="event_block">
-					<h2>The Company Plan</h2>
-					<p class=""><em> contact us for a custom quote </em></p>
+		<!-- ==== GREYWRAP ==== -->
+		<div class="greywrap" style="text-align:left">
+			<div class="container">
+				<div class="row">
+					<h1 class="centered">We are serious about making your life easier</h1>
 					
-					<table class="table">
-						<tr><td><i class="icon-heart"></i> Access anywhere</td></tr>
-						<tr><td><i class="icon-group"></i> Multi User</td></tr>
-						<tr><td><i class="icon-signal"></i> Full stats</td></tr>
-						<tr><td><i class="icon-envelope-alt"></i> Daily reminders</td></tr>
+					<div class="col-lg-5 col-lg-offset-2">		
 
-						<tr><td><i class="icon-calendar"></i> Weekly reports</td></tr>
-						<tr><td><i class="icon-user"></i> Employee happiness report</td></tr>
-					</table>
-					<a class="the_btn btn-large btn-block" href="https://agrassi.wufoo.com/forms/q1ixaglg1a0dsfh/"> Contact us </a>
-								
+						<p>If this product doesn't simplify your life just ask the money back and we'll refund the whole amount.</p>
+						<p>
+						Ah, did we say that you can do it up until 30 days later?		<br/><br/>
+						<a class="btn btn-lg btn-success" href="#pricing">Ok, I Want It</a><br/>				
+						</p>
+
+					</div>
+
+					<div class="col-lg-4">
+						<h1><img src="images/guarantee1.png" alt="" /></h1>
+					</div>
 				</div>
 			</div>
-			<div class="span5 tac">
-				<div class="event_block">
-					<h2>The Freelance Plan</h2>
-					<p class="">$2 / mo <br/> <em>paid annually</em></p>
-					
-					<table class="table">
-						<tr><td><i class="icon-heart"></i> Access anywhere</td></tr>
-						<tr><td><i class="icon-user"></i> 1 User</td></tr>
-						<tr><td><i class="icon-signal"></i> Full stats</td></tr>
-						<tr><td><i class="icon-envelope-alt"></i> Daily reminders</td></tr>
-					</table>
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-						<input type="hidden" name="cmd" value="_s-xclick">
-						<input type="hidden" name="hosted_button_id" value="J89TS82QKFEW8">
-						<button class="the_btn btn-large btn-block" type="submit">Get Your Account</button>
-						<img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
-					</form>
-					or <a class="typeform-share link" style="color: #266F7A; text-decoration:underline;" href="https://andrea-sdl.typeform.com/to/zuMaxU" data-mode="1" target="_blank">Request a Free 10 Days Trial</a>
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-								
-				</div>
-			</div>
+		</div><!-- greywrap -->
+		
+		<!-- ==== SECTION DIVIDER3 -->
+		<section class="section-divider textdivider divider3">
+			<div class="container">
+				<h1>Tracking time should always be a pleasure</h1>
+				<hr>
+				<p>Because time is a tool to your freedom</p>
+			</div><!-- container -->
+		</section><!-- section -->
+		
+		<!-- ==== PORTFOLIO ==== -->
+		<div class="container" id="pricing" name="pricing">
+		<br>
+			<div class="row centered">
+				<br>
+				<h1 class="centered">Plans &amp; Pricing</h1>
+				<hr>
+				<p>Simple, affordable and honest prices</p>
+				<br>
+			</div><!-- /row -->
+			<div class="container">
+			<div class="row">	
+				<div class="col-sm-3 col-sm-offset-1"><br/>
+	                <div class="panel panel-default text-center">
+	                    <div class="panel-heading">
+	                        <strong>The Company Plan</strong>
+	                    </div>
+	                    <div class="panel-body">
+	                        <em>contact us for a custom quote</em>
+	                    </div>
+	                    <ul class="list-group">
+	                        <li class="list-group-item"><i class="icon icon-tablet"></i> Access anywhere</li>
+	                        <li class="list-group-item"><i class="icon icon-users"></i> Multi User</li>
+	                        <li class="list-group-item"><i class="icon icon-bars-2"></i> Full stats</li>
+	                        <li class="list-group-item"><i class="icon icon-envelop"></i> Daily reminders</li>
+	                        <li class="list-group-item"><i class="icon icon-calendar"></i> Weekly reports</li>
+	                        <li class="list-group-item"><i class="icon icon-user"></i> Employee happiness report</li>
+	                        <li class="list-group-item">
+	                        	<a class="typeform-share link btn btn-primary" href="https://andrea-sdl.typeform.com/to/rRjHo3" data-mode="1" target="_blank">Get a quote</a>
+								<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+	                        </li>
+	                    </ul>
+	                </div>
+            	</div>
+				<div class="col-sm-4">
+	                <div class="panel panel-default text-center">
+	                    <div class="panel-heading">
+	                        <strong>The Freelance Plan <span class="label label-success">Best Value</span></strong>
+	                    </div>
+	                    <div class="panel-body">
+	                        <h3 >$3 /mo. </h3>
+	                        <em>paid yearly</em>
+	                    </div>
+	                    <ul class="list-group">
+	                        <li class="list-group-item"><i class="icon icon-tablet"></i> Access anywhere</li>
+	                        <li class="list-group-item"><i class="icon icon-user"></i> 1 User</li>
+	                        <li class="list-group-item"><i class="icon icon-bars-2"></i> Full stats</li>
+	                        <li class="list-group-item"><i class="icon icon-envelop"></i> Daily reminders</li>
+	                        <li class="list-group-item">
+
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<p>
+								<input type="hidden" name="cmd" value="_s-xclick">
+								<input type="hidden" name="hosted_button_id" value="TWRTLSVD8KJ8Y">
+								<button class="btn btn-lg btn-success" type="submit">Buy It Now</button>
+								<img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
+								</p>
+							</form>
+							<p>
+							or <a class="typeform-share link" style="color: #266F7A; text-decoration:underline;" href="https://andrea-sdl.typeform.com/to/zuMaxU" data-mode="1" target="_blank">Request a Free 10 Days Trial</a>
+							<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+							</p>
+	                        </li>
+	                    </ul>
+	                </div>
+            	</div>
+
+				<div class="col-sm-3"><br/>
+            		<div class="panel panel-default text-center">
+	                    <div class="panel-heading">
+	                        <strong>Small Plan</strong>
+	                    </div>
+	                    <div class="panel-body">
+	                        <h3 >$2 /mo.</h3>
+	                        <em>paid yearly</em>
+	                    </div>
+	                    <ul class="list-group">
+	                        <li class="list-group-item"><i class="icon icon-tablet"></i> Access anywhere</li>
+	                        <li class="list-group-item"><i class="icon icon-user"></i> 1 User</li>
+	                        <li class="list-group-item"><i class="icon icon-bars-2"></i> Full stats</li>
+	                        <li class="list-group-item" ><s style="color:#888"><i class="icon icon-envelop"></i> Daily reminders</s></li>
+	                        <li class="list-group-item">
+
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<p>
+								<input type="hidden" name="cmd" value="_s-xclick">
+								<input type="hidden" name="hosted_button_id" value="J89TS82QKFEW8">
+								<button class="btn btn-success" type="submit">Buy It Now</button>
+								<img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
+								</p>
+							</form>
+	                        </li>
+	                    </ul>
+
+	                </div>
+            	</div>
+            </div>
+		</div><!-- /row -->
+	</div><!-- /container -->
+
+		<!-- ==== SECTION DIVIDER4 ==== -->
+		<section class="section-divider textdivider divider4">
+			<div class="container">
+				<h1>We are open to questions of any kind</h1>
+				<hr>
+				<p>Just make sure they're not too much embarassing</p>
+			</div><!-- container -->
+		</section><!-- section -->
+		
+		<!-- ==== BLOG ==== -->
+		<div class="container" id="faq" name="faq">
+			<div class="row">
+				<br>
+				<h1 class="centered">FAQ, or... whatever doubts you might have</h1>
+				<hr>
+				<br>
+				<br>
+			</div><!-- /row -->
 			
-		</div>
-	</div>
-</div>
-<!-- Page 3 (Pricing) END -->
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="col-lg-12 blog-content">
+							<h2>Why would I want to use this instead of a Spreadsheet?</h2>
+							<p>It's not like you <em>have</em> to. It's just that using a spreadsheet sometimes takes just too much time and it's not helping you understanding which projects are truly worth it.</p>
+					</div><!-- /col -->
+					
+					<div class="col-lg-12 blog-content">
+							<h2>And what about time tracking timers? Are they bad?</h2>
+							<p>Timers are a way to <em>actively</em> track time. They are great, but they have a drawback.<br/> 
+							In fact they share this drawback with spreadsheets: they need your memory &amp; attention.<br/>
+							This leads to forgetting to pull the right trigger and therefore to track your hours.
+							</p>
+							<p>Passive time tracking, like ours, removes the memory weight because you just need to do it once a day and it will be our task to remember you to do it, so you can focus on what you do best </p>
+							<p>There's not a good or bad side, but I obviously prefer the passive time tracking, because I feel that tools should remove actions from your life, not add them</p>
+					</div><!-- /col -->
+					<div class="col-lg-12 blog-content">
+							<h2>If I change my mind, can I have a refund?</h2>
+							<p>Yes. We care about helping you having the best out of our product.<br/> But in case it's not the best choice for you we don't want to tie you up. </p>
+							<p>Just write us an email in your first 30 days and we will refund the whole amount, no questions asked.</p>
+					</div><!-- /col -->
+					
+					<div class="col-lg-12 blog-content">
+							<h2>Do you offer monthly plans?</h2>
+							<p>We do not offer monthly plans at this time, but we are testing out a monthly plan of 4$/mo for the freelance plan. <br/> If you want to test it out, <a href="#contact">write us an email</a> ;)</p>
+					</div><!-- /col -->
+					
+					<div class="col-lg-12 blog-content">
+							<h2>Why should I track worked hours, in the first place?</h2>
+							<p>To put it simply: It's one of the best tricks to do the right amount of money.<br/>
+							By the way... tracking hours shouldn't imply billing hours, personally I think the best way is to get billed monthly/weekly, and understanding the revenue thanks to the number of hours tracked.</p>
+					</div><!-- /col -->
+				</div><!-- /row -->
+			</div><!-- /row -->
+		</div><!-- /container -->
 
-<!-- Page 4 (Contacts) -->
-<div class="page-item-class" id="page4">
-	<div class="container-fluid">
-		<div class="container">
-			<div class="page-header">
-				<h1>Questions? We're here to answer</h1>
+		<div class="container" id="contact" name="contact">
+			<div class="row">
+			<br/>
+				<h1 class="centered">Get in touch, let's chat</h1>
+				<hr>
+			</div><!-- /row -->
+			
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<form id="contact_form" name="form3" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" 		novalidate target="_blank"
+      					action="https://agrassi.wufoo.com/forms/q1ixaglg1a0dsfh/#public">
+  						<fieldset>
+						<div class="form_element1 form-group">
+							<label for="Field11">
+								<span>Your Name</span>
+							</label>
+							<input id="Field11" name="Field11" type="text" class="field text medium form-control" value="" maxlength="255" tabindex="1" onkeyup="" required />
+							
+							<label for="Field1">
+								<span>Your Email</span>
+							</label>
+								<input id="Field1" name="Field1" type="email" spellcheck="false" class="field text medium form-control" value="" maxlength="255" tabindex="2" required /> 					
+						</div>
+						<div class="form_element2 form-group">
+							<label for="Field13">
+								<span>Your Fantastic Message</span>
+							</label>
+								<textarea id="Field13" 
+								name="Field13" 
+								class="field textarea medium form-control" 
+								spellcheck="true" 
+								rows="5" 
+								tabindex="3" 
+								onkeyup=""
+								required  ></textarea>
+						</div>
+						<button type="submit" class="btn btn-block btn-lg btn-primary" value="submit">Send Message</button>
+					</fieldset>
+
+					<div style="display:none">
+						<label for="comment">Do Not Fill This Out</label>
+						<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+						<input type="hidden" id="idstamp" name="idstamp" value="s7bsgJyRwHvP+IneAOPuAOk1IHP7X7n9jeDNvWthNkI=" />
+					</div>
+				</form> 
+		
+				</div>				
+			</div><!-- /row -->
+		</div><!-- /container -->
+
+		
+		<!-- ==== SECTION DIVIDER6 ==== -->
+		<section class="section-divider textdivider divider6">
+			<div class="container">
+				<h1>Proudly handcrafted in Italy</h1>
+				<hr>
+			</div><!-- container -->
+		</section><!-- section -->
+		
+		<div class="container" id="contact" name="contact">
+			<div class="row">
+			<br>
+				<h1 class="centered">Thanks for taking the time to read until here</h1>
+				<hr>
+				<br>
+				<br>
+				<div class="col-lg-4 centered">
+					<h3>Who am I</h3>
+					<p>
+					<img class="img img-circle" src="images/myself.jpg" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Andrea Grassi</b></h4>
+					<p>Passionate about productivity, web developer and enthusiastic about personal development. You can learn more in my <a href="http://about.me/andrea_sdl" target="_blank">about me page</a></p>
+					 <br/>
+					</p>
+				</div><!-- col -->
+				
+				<div class="col-lg-4 centered">
+					<h3>Newsletter &amp; Offers</h3>
+					<p>Register to our newsletter and be updated with the latests information regarding our services, offers and much more.</p>
+					<p>					
+						<a class="btn btn-success" href="https://docs.google.com/forms/d/1Le-oL8qVeAO4_67JatXzi_g_AO8wJi3WZwYAshaQSG0/viewform" target="_blank">Signup &amp; be notified</a>
+					</p>
+				</div><!-- col -->
+				
+				<div class="col-lg-4 centered">
+					<h3>Support Us</h3>
+					<p>Liked what you found out? Share it with friends who might need a bit of help tracking their time.</p>
+				</div><!-- col -->
+
+			</div><!-- row -->
+		
+		</div><!-- container -->
+
+		<div id="footerwrap">
+			<div class="container">
+				<h4>Created by <a href="http://about.me/andrea_sdl" target="_blank">Andrea Grassi</a> - Copyright 2014</h4>
 			</div>
 		</div>
-	</div>
-	<div class="google_map">
-		<div class="form_container">
-			<div class="form_close_elements"><i class="icon-envelope"></i></div>
-		<form id="contact_form" name="form3" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate target="_blank"
-      action="https://agrassi.wufoo.com/forms/q1ixaglg1a0dsfh/#public">
-  <fieldset>
-					<div class="form_element1">
-						<label>
-							<span>Your Name</span>
-							<input id="Field11" name="Field11" type="text" class="field text medium" value="" maxlength="255" tabindex="1" onkeyup="" required />
-						</label>
-						
-						<label>
-							<span>Your Email</span>
-							<input id="Field1" name="Field1" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="2" required /> 
-						</label>					
-					</div>
-					<div class="form_element2">
-						<label>
-							<span>Your Message</span>
-							<textarea id="Field13" 
-name="Field13" 
-class="field textarea medium" 
-spellcheck="true" 
-rows="5" 
-tabindex="3" 
-onkeyup=""
-required  ></textarea>
-						</label>
-					</div>
-					<button type="submit" class="the_btn btn-block btn-large light" value="submit">Send Message</button>
-				</fieldset>
 
-<div style="display:none">
-<label for="comment">Do Not Fill This Out</label>
-<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-<input type="hidden" id="idstamp" name="idstamp" value="s7bsgJyRwHvP+IneAOPuAOk1IHP7X7n9jeDNvWthNkI=" />
-</div>
-</form> 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
 		
-		</div>
-		<iframe width="425" height="350" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=us&amp;geocode=&amp;q=Montevarchi,+AR,+Italy&amp;aq=0&amp;oq=new&amp;sll=46.933064,32.007997&amp;sspn=0.256476,0.676346&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA&amp;t=m&amp;z=10&amp;ll=40.714353,-74.005973&amp;output=embed"></iframe>
-	</div>
-	<!-- Sign up -->	
-	<div class="container tac">		
-		<h1>Newsletter/Offer Sign Up</h1>
-		<p>
-				<a href="https://docs.google.com/forms/d/1Le-oL8qVeAO4_67JatXzi_g_AO8wJi3WZwYAshaQSG0/viewform" class="the_btn btn-large">Signup to be notified of any offer</a>
-			</p>
-	</div>
-	<div class="divider20"></div>
-	<!-- Follow us -->	
-	<div class="container ">
-		<div class="tac"><div class="decorative_line"><h5>Proudly built in Italy by <a href="http://about.me/andrea_sdl" target="_blank">Andrea Grassi</a></h5></div></div>
-		
-	</div>
-	<!-- Follow us END -->
-</div>
-<!-- Page 4 (Contacts) END -->
 
-<!-- Footer -->
-<footer class="footer">
-	<div class="footer_inner">
-		<div class="container">
-			<div class="row-fluid">
-				<div class="span10">
-					<h5>COPYRIGHT 2013 GiveMeTheChills. ALL RIGHTS RESERVED.</h5>			
-				</div>
-				<div class="span2">
-					<a href="#page0" class="btn btn-link back_top_top scroll_to">ON TOP<i class="icon-arrow-up"></i> </a>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
-<!-- Footer END -->
-<script type="text/javascript">
-setTimeout(function(){var a=document.createElement("script");
-var b=document.getElementsByTagName("script")[0];
-a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0014/6043.js?"+Math.floor(new Date().getTime()/3600000);
-a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script>
-  
-<!-- ClickTale Bottom part -->
-
-<script type='text/javascript'>
-// The ClickTale Balkan Tracking Code may be programmatically customized using hooks:
-// 
-//   function ClickTalePreRecordingHook() { /* place your customized code here */  }
-//
-// For details about ClickTale hooks, please consult the wiki page http://wiki.clicktale.com/Article/Customizing_code_version_2
-
-document.write(unescape("%3Cscript%20src='"+
-(document.location.protocol=='https:'?
-"https://clicktalecdn.sslcs.cdngc.net/www02/ptc/3db4f542-b74b-49e0-b84b-e8208fdaf481.js":
-"http://cdn.clicktale.net/www02/ptc/3db4f542-b74b-49e0-b84b-e8208fdaf481.js")+"'%20type='text/javascript'%3E%3C/script%3E"));
-</script>
-
-<!-- ClickTale end of Bottom part -->
-
-</body>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/retina.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
+  </body>
 </html>
-
