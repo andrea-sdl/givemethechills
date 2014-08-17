@@ -84,7 +84,7 @@ body {
 }
 
 body {
-    font-family: "Lato";
+    font-family: "Fira Sans";
     font-weight: 300;
     font-size: 18px;
     color: #555;
@@ -271,7 +271,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/56H.jpg) no-repeat center top;
+	background: url(../img/mongolf.jpg) no-repeat center top;
 	margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
@@ -291,7 +291,7 @@ a:after {
     background-size: cover;
 }
 .header_arrow_button {
-background: url("../img/header_arrow_button.png") repeat scroll 0 0 transparent;
+background: url("../img/header_arrow_button_black.png") repeat scroll 0 0 transparent;
 height: 91px;
 margin: 0 auto;
 width: 92px;
@@ -320,10 +320,10 @@ margin-top:60px;
 	margin-left: 15px;
 	text-shadow: 1px 1px 1px #fff;
 }
-#headerwrap p  em{
+#headerwrap p em{
     color:#000;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     line-height: 25px;
     letter-spacing: 3px;
@@ -646,11 +646,17 @@ margin-top:60px;
 
 @media screen and (max-width:769px) {
 	#headerwrap h1 {
-		font-size: 80px;
+		font-size: 75px;
 	}
 	#headerwrap p {
-		font-size: 30px;
+		font-size: 27px;
 		line-height: 38px;
 	}
+}
+
+.small-label{font-size:12px;}
+
+@media screen and (min-width:768px) and (max-width : 1650px){
+    #headerwrap {background-position: 50% 66% !important;}
 }
 
